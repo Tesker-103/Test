@@ -2102,11 +2102,11 @@ TextLine(window,"any pet can be used to do this")
 TextLine(window,"PATCHED IN NEW SERVER, SEE BELOW")
 
 NewBtn(window,"Copy Server Link (Paste In Chrome)","rbxassetid://0",function()
-setclipboard("roblox://placeId=91867617264223&gameInstanceId=a1c5726d-c234-4b50-92f5-cd5640b8664e")
+setclipboard("roblox://placeId=91867617264223&gameInstanceId=cda8bbc6-dcd0-416d-841c-167d26121c0f")
 end)
 
 NewBtn(window,"Directly Join (No getting Queue [issue])","rbxassetid://0",function()
-TeleportService:TeleportToPlaceInstance("91867617264223", "a1c5726d-c234-4b50-92f5-cd5640b8664e", Players.LocalPlayer)
+TeleportService:TeleportToPlaceInstance("91867617264223", "cda8bbc6-dcd0-416d-841c-167d26121c0f", Players.LocalPlayer)
 end)
 
 newpos = 0
