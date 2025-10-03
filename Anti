@@ -1,0 +1,6 @@
+local ishooked = isfunctionhooked or is_function_hooked
+while task.wait() do
+if ishooked(request) or ishooked(http_request) then
+game:GetService("Players").LocalPlayer:Kick("detected")
+end
+end
