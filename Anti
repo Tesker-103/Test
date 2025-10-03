@@ -1,6 +1,10 @@
+local og = loadstring
 local ishooked = isfunctionhooked or is_function_hooked
 while task.wait() do
 if ishooked(request) or ishooked(http_request) then
-game:GetService("Players").LocalPlayer:Kick("detected")
+game:GetService("Players").LocalPlayer:Kick("hook detected")
+end
+if getgenv().loadstring ~= og then
+game:GetService("Players").LocalPlayer:Kick("hook detected")
 end
 end
